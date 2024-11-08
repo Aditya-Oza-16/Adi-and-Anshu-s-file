@@ -1,13 +1,44 @@
-Workshop
+# 1. import the hello module
+import hello
 
-j
-D
-ddd
-d
-d
-d
-d
-d
-d
-d
-d
+# 2. Call the world function from the hello module.
+hello.world()
+
+# 3. Go into the circle.py file and create the circle_measurments function
+# import the circle module
+import circle
+
+# 4. Call the circle_measurements function from the circle module with an argument of 10 
+# and store the results in variables called circumference and area.
+circumference, area = circle.circle_measurements(10)
+
+# 5. Go to the basic_math.py file and create the functions as requested, import the basic_math module below.
+import basic_math
+
+# 6. Call the add function from the basic_math module with paramters of 2 and 3 and store the result in a variable called sum.
+sum = basic_math.add(2,3)
+
+# 7. Call the subtract function with arguments of 12 and 6. Store the result in a variable called difference.
+difference = basic_math.subtracted(12,6)
+
+# 8. Call the multiply function with an argument of 8 and 8. Store the result in a variable called product.
+product = basic_math.multiply(8,8)
+
+# 9. Call the divide function with arguments of 3 and 2. Store the result in a variable called quotient.
+quotient = basic_math.divide(3,2)
+
+# 10. Call the integer_division function with arguments of 5 and 2. Store the results in variables int_quotient and remainder.
+
+int_quotient ,remainder = basic_math.integer_division(5,2)
+
+####################### Don't touch anything below this line ######################
+print(f"The cirmcumference is {circumference}")
+print(f"The area of the circle is {area}")
+print("Testing the basic_math module....")
+print("sum of 2 and 3 is", sum)
+print("difference of 12 and 6 is",difference)
+print("product of 8 and 8 is", product)
+print("quotient of 3 and 2 is", quotient)
+print(f"5 goes into 2 evenly {int_quotient} times with {remainder} left over")
+
+
